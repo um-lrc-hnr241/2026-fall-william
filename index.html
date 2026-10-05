@@ -3,30 +3,49 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Our Portfolio Site</title>
+  <title>the continuity of consciousness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header">
-    <p class="site-title"><a href="index.html">Our Portfolio Site</a></p>
-    <nav aria-label="Main">
+    <p class="site-title"><a href="index.html">the continuity of consciousness</a></p>
+    <nav aria-label="Member pages">
       <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="cc.html">CC</a></li>
+        <li><a href="rd.html">RD</a></li>
+        <li><a href="by.html">BY</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main">
-    <h1>Welcome</h1>
-    <p>This is your group's starter site. Nothing here is final.</p>
-    <p>Fill in your planning Doc, then leave a comment that starts with
-      <code>@agent build</code> to have the agent replace this page with your own.</p>
+    <h1>the continuity of consciousness</h1>
+    <figure class="cover-image">
+      <img src="images/site_cover_page.png" alt="Cover artwork for the continuity of consciousness portfolio">
+    </figure>
+
+    <section class="music-section" aria-labelledby="music-heading">
+      <h2 id="music-heading">Listen</h2>
+      <p>“House of the Rising Sun” — Ramin Djawadi, from the Westworld soundtrack.</p>
+      <div class="player-frame">
+        <iframe title="Spotify player search for House of the Rising Sun by Ramin Djawadi"
+          src="https://open.spotify.com/embed/search/House%20of%20the%20Rising%20Sun%20Ramin%20Djawadi"
+          width="100%" height="152" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <p class="player-fallback"><a href="https://open.spotify.com/search/House%20of%20the%20Rising%20Sun%20Ramin%20Djawadi">Open the soundtrack search on Spotify</a></p>
+    </section>
+
+    <p class="intro">This site serves as the online portfolio for Team William, HONORS 241 Fall 2026 at the University of Michigan.</p>
   </main>
 
   <footer class="site-footer">
-    <p>Built by our group with help from an AI agent.</p>
+    <p>Team William · HONORS 241 · University of Michigan</p>
   </footer>
 </body>
 </html>
